@@ -81,10 +81,10 @@ def main():
             ced = int(input("Ingrese la cedula del paciente: "))
 
             pac = sistema.verDatosPacientes(ced)
-                print("Nombre: " + pac.verNombre())
-                print("Cédula: " + str(pac.verCedula()))
-                print("Género: " + pac.verGenero())
-                print("Servicio: " + pac.verServicio())           
+            print("Nombre: " + pac.verNombre())
+            print("Cédula: " + str(pac.verCedula()))
+            print("Género: " + pac.verGenero())
+            print("Servicio: " + pac.verServicio())           
         
         elif menu == 3:
             print("Número total de pacientes: " + str(sistema.verNumeroPacientes()))
