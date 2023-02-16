@@ -5,3 +5,15 @@ def despedir():
 def hablar():
     print("COmo has estado")
 saludar()
+def hablar():
+    print("COmo has estado")
+saludar()
+def hablar():
+    print("COmo has estado")
+saludar()
+def hablar():
+    print("COmo has estado")
+saludar()
+def hablar():
+    print("COmo has estado")
+saludar()
